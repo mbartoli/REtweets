@@ -7,7 +7,7 @@ import org.apache.spark.mllib._
 import org.apache.spark.rdd.RDD
 import dose.tool._
 
-object Main {
+object MainClass {
   def main(args: Array[String]) = {
     println("calling")
     val sparkConfigs = tweetProcessing.setupSparkProject(args)
