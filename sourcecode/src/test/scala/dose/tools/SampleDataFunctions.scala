@@ -1,5 +1,4 @@
-package dose
-import dose._
+package dose.tools
 import java.io.File
 
 object SampleDataFunctions {
